@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <!-- Show icon -->
+  <link rel="icon" type="image" href="logo.png" />
+  <!-- My style -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Technology News</title>
+</head>
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid" aria-current="page">
+      <a class="navbar-brand ms-5 fs-3 pt-3 pb-3" href="#">Technology News</a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <div class="container">
+    <div class="row mt-2">
+      <div class="col">
+        <h1 class="text-center">Top Headlines in Technology Category</h1>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control searchNews" placeholder="Search News" aria-label="Search News" aria-describedby="button-addon2">
+          <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row newsCont" id="news-articles">
+      <div class="col-12">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <!-- Script javascript -->
+  <script src="script.js"></script>
+</body>
+</html>

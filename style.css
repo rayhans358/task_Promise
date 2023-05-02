@@ -1,0 +1,12 @@
+:root {
+  --bgNav: #5c5cd1;
+  --contain: #ddd;
+}
+
+.navbar {
+  background-color: var(--bgNav);
+}
+
+body {
+  background-color: var(--contain);
+}
